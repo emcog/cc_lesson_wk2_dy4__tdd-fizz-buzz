@@ -3,3 +3,5 @@ def fizz_buzz(number):
         return 'fizz'
     elif number == 5:
         return 'buzz'
+    else:
+        return 'fizzbuzz'
