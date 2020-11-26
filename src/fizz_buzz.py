@@ -3,5 +3,8 @@ def fizz_buzz(number):
         return 'fizz'
     elif number == 5:
         return 'buzz'
-    else:
+    elif number == 15:
         return 'fizzbuzz'
+    else:
+        return str(number)
+    
